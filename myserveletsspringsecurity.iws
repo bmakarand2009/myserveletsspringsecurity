@@ -7,7 +7,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad2fd220-804a-4f0a-aa0d-c888867d4428" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/classes/com/abc/HelloServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/aspectjrt-1.6.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/aspectjweaver-1.6.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/commons-logging-1.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/jstl-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/mysql-connector-java-5.1.9.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/spring-aop-3.0.3.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/spring-asm-3.0.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/spring-beans-3.0.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/spring-context-3.0.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/spring-context-support-3.0.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/spring-core-3.0.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/spring-expression-3.0.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/spring-jdbc-3.0.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/spring-security-config-3.0.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/spring-security-core-3.0.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/spring-security-web-3.0.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/spring-tx-3.0.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/spring-web-3.0.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/lib/spring-webmvc-3.0.5.RELEASE.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myserveletsspringsecurity.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myserveletsspringsecurity.ipr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myserveletsspringsecurity.iws" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/applicationContext-security.xml.org" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/applicationContext-security.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" />
@@ -84,7 +111,7 @@
       <file leaf-file-name="applicationContext-security.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="21" selection-start="0" selection-end="4008" vertical-scroll-proportion="-1.9284403">
+            <state line="23" column="77" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.26788992">
               <folding />
             </state>
           </provider>
@@ -589,7 +616,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="21" selection-start="0" selection-end="4008" vertical-scroll-proportion="-1.9284403">
+        <state line="23" column="77" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.26788992">
           <folding />
         </state>
       </provider>
