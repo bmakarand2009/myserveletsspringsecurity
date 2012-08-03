@@ -5,16 +5,13 @@
 	http://www.springframework.org/schema/security
 	http://www.springframework.org/schema/security/spring-security-3.0.3.xsd">
 
-	<!-- <http auto-config="true"> <intercept-url pattern="/welcome*" access="ROLE_USER" 
-		/> <form-login login-page="/login" default-target-url="/welcome" authentication-failure-url="/loginfailed" 
-		/> <logout logout-success-url="/logout" /> </http> -->
-
 	<http>
 <!-- 		<intercept-url pattern="/welcome*" access="ROLE_USER" /> -->
           <intercept-url pattern="/**" access="ROLE_USER" /> 
 		
 		<http-basic />
 	</http>
+
 
 
     <beans:bean id="dataSource"
@@ -25,6 +22,8 @@
         <beans:property name="username" value="root" />
         <beans:property name="password" value="tiger" />
     </beans:bean>
+
+
 
     <authentication-manager>
         <authentication-provider>
@@ -42,53 +41,5 @@
         </authentication-provider>
     </authentication-manager>
 
-    <!--  commented for now vaishali
-    <beans:bean id="basicAuthenticationFilter"
-      class="org.springframework.security.web.authentication.www.BasicAuthenticationFilter">
-      <beans:property name="authenticationManager" ref="authenticationManager"/>
-      <beans:property name="authenticationEntryPoint" ref="authenticationEntryPoint"/>
-    </beans:bean>
-     -->
-        <!--
-        <beans:bean id="authenticationEntryPoint"
-          class="org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint">
-          <beans:property name="realmName" value="Name Of Your Realm"/>
-        </beans:bean>
-        -->
-    <!--  commented for now vaishali
-        <beans:bean id="filterChainProxy" class="org.springframework.security.web.FilterChainProxy">
-        <filter-chain-map>
-              <filter-chain pattern="/*" filters="filterSecurityInterceptor" />
-              </filter-chain-map>
-        </beans:bean>
-        <beans:bean id="filterSecurityInterceptor" class="
-        org.springframework.security.web.access.intercept.FilterSecurityInterceptor">
-            <beans:property name="authenticationManager">
-                <beans:ref bean="authenticationManager"/></beans:property>
-                <beans:property name="objectDefinitionSource">
-                <beans:value>
-                    CONVERT_URL_TO_LOWERCASE_BEFORE_COMPARISON
-                   PATTERN_TYPE_APACHE_ANT
-                    /secure/super/**=ROLE_SUPERVISOR
-                    /secure/.* =ROLE_USER,ROLE_SUPERVISOR
-                </beans:value>
-            </beans:property>
-        </beans:bean>
-         -->
-        <!--  commented for now vaishali
-       <authentication-manager alias="authenticationManager">
-       <authentication-provider ref="preauthAuthProvider" />
-       </authentication-manager>
-           <authentication-manager>
-
-                   <authentication-provider>
-                       <user-service>
-                           <user name="user" password="123456"
-                               authorities="ROLE_USER" />
-                       </user-service>
-                   </authentication-provider>
-
-           </authentication-manager>
-        -->
 
 </beans:beans>
