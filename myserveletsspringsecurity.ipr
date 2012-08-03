@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AntConfiguration">
+    <defaultAnt bundledAnt="true" />
+  </component>
+  <component name="ArtifactManager">
+    <artifact type="war" name="myserveletsspringsecurity:war">
+      <output-path>$PROJECT_DIR$/target</output-path>
+      <root id="archive" name="myserveletsspringsecurity.war">
+        <element id="artifact" artifact-name="myserveletsspringsecurity:war exploded" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="myserveletsspringsecurity:war exploded">
+      <output-path>$PROJECT_DIR$/webapp</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="myserveletsspringsecurity/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="myserveletsspringsecurity" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="library" level="project" name="Maven: org.springframework:spring-core:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-asm:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-web:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-context:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.0.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.8" />
+            <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.8" />
+            <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+            <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.9" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+  </component>
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="?*.properties" />
+      <entry name="?*.xml" />
+      <entry name="?*.gif" />
+      <entry name="?*.png" />
+      <entry name="?*.jpeg" />
+      <entry name="?*.jpg" />
+      <entry name="?*.html" />
+      <entry name="?*.dtd" />
+      <entry name="?*.tld" />
+      <entry name="?*.ftl" />
+    </wildcardResourcePatterns>
+    <annotationProcessing enabled="false" useClasspath="true" />
+  </component>
+  <component name="CopyrightManager" default="">
+    <module2copyright />
+  </component>
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="IdProvider" IDEtalkID="E5B3B26CA5668F024BF34CA70DF025A6" />
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-target 1.6" />
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" />
+    <option name="OPTION_SCOPE" value="protected" />
+    <option name="OPTION_HIERARCHY" value="true" />
+    <option name="OPTION_NAVIGATOR" value="true" />
+    <option name="OPTION_INDEX" value="true" />
+    <option name="OPTION_SEPARATE_INDEX" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="true" />
+    <option name="OPTION_DEPRECATED_LIST" value="true" />
+    <option name="OTHER_OPTIONS" value="" />
+    <option name="HEAP_SIZE" />
+    <option name="LOCALE" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ModuleEditorState">
+    <option name="LAST_EDITED_MODULE_NAME" />
+    <option name="LAST_EDITED_TAB_NAME" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/myserveletsspringsecurity.iml" filepath="$PROJECT_DIR$/myserveletsspringsecurity.iml" />
+    </modules>
+  </component>
+  <component name="ProjectResources">
+    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+  </component>
+  <component name="WebServicesPlugin" addRequiredLibraries="true" />
+  <component name="libraryTable">
+    <library name="Maven: aopalliance:aopalliance:1.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-logging:commons-logging:1.1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.servlet:jstl:1.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/jstl/1.2/jstl-1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/jstl/1.2/jstl-1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/jstl/1.2/jstl-1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.servlet:servlet-api:2.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: junit:junit:3.8.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/3.8.1/junit-3.8.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/3.8.1/junit-3.8.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/3.8.1/junit-3.8.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: mysql:mysql-connector-java:5.1.9">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.9/mysql-connector-java-5.1.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.9/mysql-connector-java-5.1.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.9/mysql-connector-java-5.1.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.aspectj:aspectjrt:1.6.8">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.6.8/aspectjrt-1.6.8.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.6.8/aspectjrt-1.6.8-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.6.8/aspectjrt-1.6.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.aspectj:aspectjweaver:1.6.8">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.6.8/aspectjweaver-1.6.8.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.6.8/aspectjweaver-1.6.8-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.6.8/aspectjweaver-1.6.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.security:spring-security-config:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/3.0.5.RELEASE/spring-security-config-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/3.0.5.RELEASE/spring-security-config-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/3.0.5.RELEASE/spring-security-config-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.security:spring-security-core:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.0.5.RELEASE/spring-security-core-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.0.5.RELEASE/spring-security-core-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.0.5.RELEASE/spring-security-core-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.security:spring-security-web:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.0.5.RELEASE/spring-security-web-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.0.5.RELEASE/spring-security-web-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.0.5.RELEASE/spring-security-web-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-aop:3.0.3.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.0.3.RELEASE/spring-aop-3.0.3.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.0.3.RELEASE/spring-aop-3.0.3.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.0.3.RELEASE/spring-aop-3.0.3.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-asm:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-asm/3.0.5.RELEASE/spring-asm-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-asm/3.0.5.RELEASE/spring-asm-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-asm/3.0.5.RELEASE/spring-asm-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-beans:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.5.RELEASE/spring-beans-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.5.RELEASE/spring-beans-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.5.RELEASE/spring-beans-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-context-support:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/3.0.5.RELEASE/spring-context-support-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/3.0.5.RELEASE/spring-context-support-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/3.0.5.RELEASE/spring-context-support-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-context:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.5.RELEASE/spring-context-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.5.RELEASE/spring-context-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.5.RELEASE/spring-context-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-core:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.5.RELEASE/spring-core-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.5.RELEASE/spring-core-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.5.RELEASE/spring-core-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-expression:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/3.0.5.RELEASE/spring-expression-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/3.0.5.RELEASE/spring-expression-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/3.0.5.RELEASE/spring-expression-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-jdbc:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.0.5.RELEASE/spring-jdbc-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.0.5.RELEASE/spring-jdbc-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.0.5.RELEASE/spring-jdbc-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-tx:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.0.5.RELEASE/spring-tx-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.0.5.RELEASE/spring-tx-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.0.5.RELEASE/spring-tx-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-web:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.5.RELEASE/spring-web-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.5.RELEASE/spring-web-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.5.RELEASE/spring-web-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-webmvc:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.0.5.RELEASE/spring-webmvc-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.0.5.RELEASE/spring-webmvc-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.0.5.RELEASE/spring-webmvc-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
